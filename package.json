@@ -2,7 +2,7 @@
   "name": "google-map-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://K-Abhishek14.github.io/google-map-react",
+  "homepage": "https://google-map-react.herokuapp.com",
   "dependencies": {
     "@mapbox/mapbox-gl-geocoder": "^4.7.0",
     "@testing-library/jest-dom": "^5.11.9",
