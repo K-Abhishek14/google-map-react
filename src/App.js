@@ -13,6 +13,7 @@ const App = () => {
    
   return (
     <>
+    <div>HELLO MAP </div>
       <div id="#1">
         {[1, 2].map(item => {
           return <Map idText={`map${item}`} sendData={getData} />
