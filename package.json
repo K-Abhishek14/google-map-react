@@ -2,6 +2,7 @@
   "name": "google-map-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://K-Abhishek14.github.io/google-map-react",
   "dependencies": {
     "@mapbox/mapbox-gl-geocoder": "^4.7.0",
     "@testing-library/jest-dom": "^5.11.9",
@@ -17,6 +18,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
